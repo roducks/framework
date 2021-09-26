@@ -1,0 +1,13 @@
+css:
+  roducks.css:
+    src: 'css/roducks.css'
+js:
+  roducks.js:
+    src: 'js/roducks.js'
+scripts:
+  ready:
+    - roducks.ready.js
+libraries:
+  - jquery
+  - roducksjs
+  - bootstrap

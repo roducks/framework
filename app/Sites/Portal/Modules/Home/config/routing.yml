@@ -1,0 +1,7 @@
+home.index:
+  uri: '/'
+  dispatch: 'App\Sites\Portal\Modules\Home\Page\Home'
+home.profile:
+  uri: '/profile.json'
+  dispatch: 'App\Sites\Portal\Modules\Home\Json\Home'
+  type: GET

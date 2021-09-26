@@ -1,0 +1,27 @@
+RewriteEngine On
+Options +FollowSymLinks
+Options All -Indexes
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^assets/app/([a-zA-Z]+)/modules/([a-zA-Z]+)/(.+)$ static/appSites/$1/Modules/$2/assets/$3
+RewriteRule ^assets/app/([a-zA-Z]+)/blocks/([a-zA-Z]+)/([a-zA-Z]+)/(.+)$ static/appSites/$1/Modules/$2/Blocks/$3/assets/$4
+RewriteRule ^assets/app/([a-zA-Z]+)/themes/([a-zA-Z]+)/(.+)$ static/appSites/$1/themes/$2/assets/$3
+RewriteRule ^assets/core/modules/([a-zA-Z]+)/(.+)$ static/core/Modules/$1/assets/$2
+RewriteRule ^assets/core/blocks/([a-zA-Z]+)/([a-zA-Z]+)/(.+)$ static/core/Modules/$1/Blocks/$2/assets/$3
+RewriteRule ^assets/core/themes/([a-zA-Z]+)/(.+)$ static/core/themes/$1/assets/$2
+RewriteRule ^assets/community/modules/([a-zA-Z]+)/(.+)$ static/community/Modules/$1/assets/$2
+RewriteRule ^assets/community/blocks/([a-zA-Z]+)/(.+)$ static/community/Modules/$1/Blocks/$2/assets/$3
+RewriteRule ^assets/community/themes/([a-zA-Z]+)/(.+)$ static/community/themes/$1/assets/$2
+
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?uri=$1 [L,NC]
+
+<Files ~ "\.(rar|zip)$">
+   order deny,allow
+   deny from all
+</Files>

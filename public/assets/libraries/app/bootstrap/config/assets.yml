@@ -1,0 +1,12 @@
+css:
+  font.googleapis:
+    src: https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto:100,400|Source+Sans+Pro:200,400
+  fontawesome:
+    src: https://use.fontawesome.com/releases/v5.4.1/css/all.css
+  bootstrap:
+    src: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css
+  bootstrap-theme:
+    src: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css
+js:
+  bootstrap:
+    src: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js

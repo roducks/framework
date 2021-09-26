@@ -1,0 +1,3 @@
+roducks.lndo.site: 
+  errors: true
+  env: '@local'

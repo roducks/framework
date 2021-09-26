@@ -1,0 +1,18 @@
+<header>
+  <nav>
+    <a href="#" class="menu-toggle"><i class="fas fa-bars"></i></a>
+    <div class="nav-top">
+      <ul>
+        <li class="nav-home"><a href="{% link 'home.index' %}"><i class="glyphicon glyphicon-home"></i> Home</a></li>
+        <li><a href="/documentation/">Documentation</a></li>
+        <li><a href="{% link 'cli' %}" onclick="$roducks.theme.anchor();">CLI</a></li>
+        <li><a href="{% link 'components' %}" onclick="$roducks.theme.anchor();">Components</a></li>
+        <li><a href="{% link 'libraries' %}" onclick="$roducks.theme.anchor();">Libraries</a></li>
+        <li><a href="{% link 'features' %}" onclick="$roducks.theme.anchor();">Features</a></li>
+        <li><a href="https://github.com/rodrigocervantes/roducks" target="_blank" class="btn-download"><i class="fab fa-github"></i> Github</a></li>
+      </ul>
+      <div class="clearfix"></div>
+    </div>
+  </nav>
+</header>
+{% block "container" |top| %}

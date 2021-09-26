@@ -1,0 +1,231 @@
+<div class="main centered">
+  <img src="{% asset 'images/roducks_logo_home.png' %}" alt="Roducks" class="logo">
+  <h1>A <b>PHP</b> modern, scalable and light <b>MVC</b> Framework.</h1>
+  <div class="code-window">
+    <ol class="code-lines">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ol>
+    <pre>
+<span class="code-key">namespace</span> App\Sites\Portal\Modules\Home\Page;<br>
+<span class="code-key">use</span> Roducks\Page\Page;<br>
+
+<span class="code-key">class</span> <span class="code-method">Home</span> <span class="code-key">extends</span> <span class="code-method">Page</span> {
+  <span class="code-key">public function</span> <span class="code-method">index</span>()
+  {
+      <span class="code-comment">// Pass variables to view &lt;KEY>, &lt;VALUE></span>
+      <span class="code-this">$this</span><span class="code-arrow">-></span><span class="code-var">view</span><span class="code-arrow">-></span><span class="code-method">data</span>(<span class="code-str">'title'</span>, <span class="code-str">"Home"</span>);
+
+      <span class="code-comment">// Load View</span>
+      <span class="code-this">$this</span><span class="code-arrow">-></span><span class="code-var">view</span><span class="code-arrow">-></span><span class="code-method">load</span>(<span class="code-str">'index'</span>);<br>
+
+      <span class="code-key">return</span> <span class="code-this">$this</span><span class="code-arrow"><span class="code-arrow">-></span></span><span class="code-var">view</span><span class="code-arrow">-></span><span class="code-method">output</span>();
+  }
+}
+    </pre>
+    <div class="clearfix"></div>
+  </div><!-- .code-window -->
+
+  <div class="message-container">
+    <div class="message">
+      <p>It works with a <b>MySQL</b> database that includes its own <b>ORM</b> for <b>SQL</b> transactions as many other features and libraries to make a great and secure <b>Web Application</b>.</p>
+    </div>
+    <img src="{% asset:module 'images/roducks_logo.png' %}" alt="">
+    <a id="cli"></a>
+  </div>
+</div>
+
+<div class="vector">
+  <div id="polygon"></div>
+</div>
+
+<div class="wrapper block">
+  <div class="cli-container">
+    <div class="rel">
+      <div class="cli-message">
+        <h2>CLI</h2>
+        <p>Create your first module and much more!</p>
+        <a href="/documentation/cli/">See more <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="cli-window">
+        <div class="bar">
+          <ul>
+            <li class="t-close"></li>
+            <li class="t-min"></li>
+            <li class="t-max"></li>
+          </ul>
+          <span>/var/www/html/roducks</span>
+          <div class="clearfix"></div>
+        </div>
+        <div class="cmd">
+          <div>
+            $ php roducks -v
+          </div>
+          <div class="cmd-line">
+<div class="cmd-headline">
+&nbsp;&nbsp;&nbsp;___&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_&nbsp;&nbsp;__ __<br>
+&nbsp;&nbsp;/  _ \___&nbsp;&nbsp;___/ /_&nbsp;&nbsp;__,___| |/ // _\<br>
+&nbsp;/  .__/ _ \/ _  &nbsp;/ /_/ / __/| | /_\ \<br>
+/_/\_\\___/\_,_/\____/\___\|_|\_\__/<br><br>
+</div>
+          <span class="cmd-v-label">Version:</span> <span class="cmd-v-text">2.0</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <a id="components"></a>
+  <div class="container">
+    <div class="title">
+      <h2><i class="fas fa-cubes"></i> Components</h2>
+    </div>
+
+    <div class="features centered row">
+      <div class="col-md-4">
+        <a href="/documentation/duke-orm/"><img src="{% asset:theme 'images/duke-orm.jpg' %}" alt=""></a>
+        <h3><i class="fas fa-database"></i> Data Base</a></h3>
+        <p>An Object Relational Mapping to make SQL Transactions.</p>
+        <a href="/documentation/duke-orm/" class="btn-dark">Check it out <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="col-md-4">
+        <a href="/documentation/duckling-template/"><img src="{% asset:theme 'images/duckling.jpg' %}" alt=""></a>
+        <h3><i class="fas fa-code"></i> Templates</a></h3>
+        <p>A template system to render views on Roducks!</p>
+        <a href="/documentation/duckling-template/" class="btn-dark">Check it out <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="col-md-4">
+        <a href="/documentation/roducks-js/" target="_blank"><img src="{% asset:theme 'images/roducks-js.jpg' %}" alt=""></a>
+        <h3><i class="fab fa-js"></i> Javascript</a></h3>
+        <p>A Javascript library with useful tools for UI / UX.</p>
+        <a href="/documentation/roducks-js/" target="_blank" class="btn-dark">Check it out <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+
+  </div>
+</div><!-- .wrapper.block -->
+
+<a id="libraries"></a>
+
+<div class="vector">
+  <div id="polygon2"></div>
+</div>
+
+<div class="block">
+  <div class="container">
+
+    <h2><i class="fas fa-wrench"></i> Libraries</h2>
+
+    <div class="message-container">
+      <div class="centered sub-message">
+        <p>The <b>Framework</b> includes some useful libraries already <b>installed</b>!</p>
+      </div>
+    </div>
+
+    <div class="libs row">
+      <div class="col-md-3">
+        <h3><a href="/documentation/libs/date/"><i class="far fa-clock"></i> Date</a></h3>
+        <p>Formatting Date, get Timestamps.</p>
+      </div>
+      <div class="col-md-3">
+        <h3><a href="/documentation/libs/request/"><i class="fas fa-phone"></i> Request</a></h3>
+        <p>HTTP Requests (GET, POST, PUT, DELETE) and more.</p>
+      </div>
+      <div class="col-md-3">
+        <h3><a href="/documentation/libs/directory/"><i class="fas fa-folder-open"></i> Directory</a></h3>
+        <p>Make, Move & Delete.</p>
+      </div>
+      <div class="col-md-3">
+        <h3><a href="/documentation/libs/file"><i class="fas fa-file"></i> File</a></h3>
+        <p>Upload, Make, Move & Delete.</p>
+      </div>
+    </div>
+
+    <div class="libs row">
+      <div class="col-md-3">
+        <h3><a href="/documentation/libs/csv/"><i class="fas fa-file-csv"></i> CSV</a></h3>
+        <p>Generate a CSV File and save it in local.</p>
+      </div>
+      <div class="col-md-3">
+        <h3><a href="/documentation/libs/xml/"><i class="fas fa-file-code"></i> XML</a></h3>
+        <p>Output XML document and save it in local.</p>
+      </div>
+      <div class="col-md-3">
+        <h3><a href="/documentation/libs/zip/"><i class="fas fa-file-archive"></i> ZIP</a></h3>
+        <p>Zip local files.</p>
+      </div>
+      <div class="col-md-3">
+        <h3><a href="/documentation/libs/download/"><i class="fas fa-file-download"></i> Download</a></h3>
+        <p>Force a file to be downloaded in browser.</p>
+      </div>
+    </div>
+
+  </div>
+</div><!-- .wrapper.block -->
+
+<a id="features"></a>
+<div class="vector">
+  <div id="polygon3"></div>
+</div>
+
+<div class="wrapper-alt block">
+  <div class="container">
+    <h2><i class="glyphicon glyphicon-pushpin"></i> Features</h2>
+    <div class="overall-container">
+      <div class="overall">
+        <div class="inner">
+          <div class="libs row">
+            <div class="col-md-4">
+              <h3><a href="/documentation/api/"><i class="fas fa-exchange-alt"></i> API</a></h3>
+              <p>Allows to make API very easy & quickly.</p>
+            </div>
+            <div class="col-md-4">
+              <h3><a href="/documentation/composer/"><i class="fas fa-tasks"></i> Composer</a></h3>
+              <p>Composer dependencies can be installed.</p>
+            </div>
+            <div class="col-md-4">
+              <h3><a href="/documentation/languages/"><i class="fas fa-flag-checkered"></i> Multilenguage</a></h3>
+              <p>Supports any language (By default English & Spanish are included).</p>
+            </div>
+          </div>
+          <div class="libs row">
+            <div class="col-md-4">
+              <h3><a href="/documentation/debugger/"><i class="fas fa-bug"></i> Debugger</a></h3>
+              <p>Prints out errors on screen for local development.</p>
+            </div>
+            <div class="col-md-4">
+              <h3><a href="/documentation/i18n/"><i class="fas fa-language"></i> i18n</a></h3>
+              <p>Translates module texts and phrases.</p>
+            </div>
+            <div class="col-md-4">
+              <h3><a href="/documentation/log-in/"><i class="fas fa-lock"></i> Login</a></h3>
+              <p>Authentication for Admin & Front.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2>Are you ready to start?</h2>
+      <div class="centered">
+        <a href="/getting-started/" class="btn-dark"><i class="fas fa-thumbs-up"></i> Yes, Let's get started!</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="vector">
+  <div id="polygon4"></div>
+</div>

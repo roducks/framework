@@ -1,0 +1,19 @@
+css:
+  home.css:
+    src: 'css/home.css'
+js:
+  home.js:
+    src: 'js/home.js'
+view:
+  index:
+    js:
+      index.js:
+        src: 'js/index.js'
+scripts:
+  ready:
+    - home.ready.js
+  inline:
+    - home.js
+libraries:
+  - jquery
+  - roducks

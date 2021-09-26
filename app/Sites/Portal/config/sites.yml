@@ -1,0 +1,3 @@
+roducks.net: 
+  errors: false
+  env: '@prod'

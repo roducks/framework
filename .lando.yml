@@ -1,0 +1,17 @@
+name: roducks
+recipe: lamp
+config:
+  php: '7.3'
+  composer_version: '2.0.7'
+  webroot: public
+  database: mysql:5.7
+  xdebug: false
+services:
+  database:
+    type: mysql
+    creds:
+      user: roducks
+      password: roducks
+      database: roducks
+env_file:
+  - database.env

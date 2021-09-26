@@ -1,0 +1,4 @@
+# https://www.php.net/manual/es/timezones.php
+timezone: 'America/Chicago'
+page.not.found: 
+  dispatch: 'App\Sites\Portal\Modules\Home\Page\NotFound'

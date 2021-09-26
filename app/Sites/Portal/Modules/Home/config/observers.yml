@@ -1,0 +1,2 @@
+http.headers:
+  dispatch: 'App\Sites\Portal\Modules\Home\Observers\Http::dispatch'

@@ -1,0 +1,5 @@
+name: timezone
+description: 'Roducks sample community module.'
+enabled: true
+author: 'Rod'
+version: '1.0'

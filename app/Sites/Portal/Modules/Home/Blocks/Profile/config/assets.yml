@@ -1,0 +1,9 @@
+css:
+  profile.css:
+    src: 'css/profile.css'
+js:
+  profile.js:
+    src: 'js/profile.js'
+scripts:
+  inline:
+    - copyright.js

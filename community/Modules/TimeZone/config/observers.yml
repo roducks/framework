@@ -1,0 +1,4 @@
+timezone:
+  dispatch: 'Community\Modules\Timezone\Observers\TimeZone::dispatch'
+  services:
+    - lang

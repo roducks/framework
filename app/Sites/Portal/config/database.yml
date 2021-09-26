@@ -1,0 +1,5 @@
+host: '@env:DB_HOST'
+db: '@env:DB_NAME'
+user: '@env:DB_USER'
+password: '@env:DB_PASS'
+port: '@env:DB_PORT'

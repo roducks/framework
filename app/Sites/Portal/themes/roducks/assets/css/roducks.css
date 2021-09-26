@@ -1,0 +1,137 @@
+body { font-size: 14px; margin: 0; padding: 0; font-family: 'Open Sans', sans-serif; font-weight: 200; }
+h1,
+h2 { font-family: 'Source Sans Pro', sans-serif; font-weight: 200; color: #444; }
+p { font-size: 16px; font-family: 'Open Sans', sans-serif; color: #444; font-weight: 300; }
+b { color: #24b2b0; }
+
+img { max-width: 100%; }
+header { padding: 0; margin: 0; }
+header::after { content: ''; display: block; height: 65px; }
+nav { background: #f8f8f8; box-shadow: 0 0 6px #999; padding: 20px; position: fixed; z-index: 999; display: block; width: 100%; margin: 0; }
+.nav-top { text-align: center; height: 25px; }
+.nav-top ul { margin: 0; padding: 0; display: inline-block; height: 25px; }
+.nav-top li { list-style: none; float: left; margin: 0 10px; line-height: 25px; }
+.nav-top li.nav-home { margin-right: 100px; }
+.nav-top li a { color: #123346; text-decoration: none; padding: 15px 30px; }
+.nav-top li a:hover { text-decoration: underline; }
+.nav-top li a.btn-download,
+a.btn-dark { border-radius: 40px; color: #fff; font-size: 20px; background: #123346; }
+a.btn-dark { display: inline-block; text-decoration: none; padding: 15px 30px; }
+a.btn-dark:hover { text-decoration: underline; }
+
+a.menu-toggle { display: none; font-size: 24px; color: #123346; }
+a.menu-toggle:focus { color: #123346; }
+.logo { margin-top: 50px; }
+.main h1 { font-size: 48px; margin: 50px 0; }
+.block h2 { margin: 60px 0; font-size: 48px; text-align: center; }
+.block h3 { font-size: 32px; }
+.wrapper { background: #24b2b0; color: #fff; }
+.wrapper h2,
+.wrapper p{ color: #fff; }
+.wrapper-alt { background: #eee; }
+.message-container { margin: 50px 0; }
+.message { width: 720px; margin: 0 auto; }
+.message p,
+.sub-message p { font-size: 22px; }
+.title { margin-top: 200px; }
+.rel { position: relative; }
+.vector { width: 100%; overflow-x: hidden; }
+.diagonal { position: absolute; z-index: 9; }
+.features { margin: 100px 0; }
+.features p { height: 50px; }
+.features img { border: solid 6px #fff; border-radius: 15px; }
+.features img:hover { border: solid 6px #123346; }
+.libs { margin: 80px 0; }
+.libs h3 a { color: #24b2b0; transition: 0.4s color; }
+.libs h3:hover a,
+.libs h3:focus a { text-decoration: none; color: #123346; }
+.overall-container { }
+.overall { border-radius: 4px; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2); background: #fff; }
+.overall h3 { color: #24b2b0; }
+.overall .inner { padding: 20px; }
+.clearfix{ clear: both; }
+.centered { text-align: center; }
+
+.cli-container { width: 720px; margin: 0 auto; }
+.cli-container h2 { margin: 0; }
+.cli-message { position: absolute; top: -80px; left: 380px; z-index: 99; }
+.cli-message h2,
+.cli-message p { text-align: left; }
+.cli-message a { background: #123346; padding: 15px 22px; font-size: 20px; display: inline-block; border-radius: 40px; color: #fff; }
+
+.cli-window { display: block; position: absolute; z-index: 99; top: -150px; width: 350px; color: #fff; font-size: 14px; font-family: monospace; }
+.cli-window .bar { background: #eee; color: #333; border-top-left-radius: 6px; border-top-right-radius: 6px; border: solid 1px #ccc; }
+.cli-window .bar ul { margin: 10px; padding: 0; float: left; }
+.cli-window .bar ul li { float: left; margin-right: 8px; border-radius: 100%; display: block; width: 10px; height: 10px; background: #000; }
+.cli-window .bar ul li.t-close { background: #d9534f; }
+.cli-window .bar ul li.t-min { background: #f0ad4e; }
+.cli-window .bar ul li.t-max { background: #5cb85c; }
+.cli-window .bar span { float: left; height: 30px; line-height: 30px; }
+.cli-window .cmd { padding: 15px; height: 180px; background: rgba(0,0,0,0.9); border-bottom-left-radius: 6px; border-bottom-right-radius: 6px; }
+.cli-window .cmd .cmd-line { margin: 10px 0; }
+.cli-window .cmd .cmd-line .cmd-headline { color: #5bc0de; }
+.cli-window .cmd .cmd-line .cmd-v-label { background: #5bc0de; padding: 2px 4px; }
+.cli-window .cmd .cmd-line .cmd-v-text { color: #aeac33; }
+.cli-window .cmd .cmd-line .cmd-v-number { color: #5cd41e; }
+
+.code-window { background: #123346; border-radius: 4px; color: #f1f1f1; width: 480px; margin: 0 auto; text-align: left; box-shadow: 0 0 4px #999; }
+.code-window ol,
+.code-window pre { font-size: 12px; margin: 11px 0; float: left; background: none; border: none; color: #fff; font-family: monospace; }
+.code-window ol li { margin-bottom: 1px; color: #ccc; }
+.code-window pre { padding: 0; margin-bottom: 0; }
+.code-window .code-key { color: #50cee6; }
+.code-window .code-var { color: #fff; }
+.code-window .code-method { color: #a2f173; }
+.code-window .code-str { color: #f9eba5; }
+.code-window .code-comment { color: #999; }
+.code-window .code-this { color: #e6c150; }
+.code-window .code-arrow { color: #e88f8f; }
+.copy { font-size: 18px; margin: 10px 0; color: #999; }
+
+@media only screen and (max-width: 1100px) {
+
+  a.menu-toggle { display: block; }
+  .nav-top li.nav-home { margin-right: auto; }
+  .nav-top { display: none; height: auto; }
+  .nav-top ul { width: 100%; height: auto; }
+  .nav-top ul li { float: none; margin: 0; line-height: normal; }
+  .nav-top ul li a { display: block; font-size: 20px; }
+
+}
+
+@media only screen and (max-width: 760px) {
+
+  .main h1 { font-size: 34px; margin: 25px 0; }
+  .message-container { margin: 20px 0 50px 0; }
+  .message { width: 100%; padding: 20px; }
+  .message p { font-size: 18px; }
+
+  .cli-container { width: 90%; margin: 0 auto; }
+  .cli-container h2 { margin: 0; }
+  .cli-message { top: 80px; left: 0; z-index: 99; }
+  .cli-message h2,
+  .cli-message p { text-align: left; }
+  .cli-message a { background: #123346; padding: 10px 20px; display: inline-block; border-radius: 40px; color: #fff; }
+
+  .cli-window { width: 100%; }
+
+  .code-window { width: 90%; overflow-x: scroll; }
+  .code-window ol { width: 10%; }
+  .code-window pre { display: block; width: 350px; overflow-x: visible; }
+  .libs { margin: 0; }
+  .features { margin: 0; }
+  .features .col-md-4 { margin-bottom: 20px; }
+
+  .title { margin: 300px 0 0 0; }
+}
+
+@media only screen and (max-width: 480px) {
+
+  .main h1 { font-size: 20px; margin: 25px 0; }
+  .message p { font-size: 14px; }
+  .code-window pre { width: 85%; }
+  .copy { font-size: 12px; }
+  .copy img.rdks { width: 48px; height: 17px; }
+  .copy img.rod { width: 20px; height: 20px; }
+
+}
