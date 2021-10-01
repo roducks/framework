@@ -28,8 +28,13 @@ extensions.js
 deploy.sh
 
 # Roducks
-logs
-data
+data/mysql/*
+!data/.gitkeep
+!data/mysql/.gitkeep
+logs/apache2/*
+!logs/apache2/.gitkeep
+logs/mysql/*
+!logs/mysql/.gitkeep
 core
 cache
 storage
