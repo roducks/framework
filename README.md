@@ -5,10 +5,41 @@
 ---
 # A PHP modern, scalable and light MVC Framework.
 
-## Setup Local Environment
-### Required Software:
-
+## Required Software:
 * Docker [v3.6.0](https://docs.docker.com/get-docker/) or higher
+
+---
+# Setup Local Environment 
+We provide 2 options:
+
+* #1 - Docker compose
+* #2 - Lando
+
+## #1 - Docker compose:
+
+### Getting Started:
+
+1. Initialize Docker containers:
+```
+sh docker-compose.sh
+```
+
+2. Touch hosts file (MAC OSX):
+```
+sudo vim /etc/hosts
+```
+
+3. Add this host:
+```
+127.0.0.1 roducks.test
+```
+
+### Done!
+
+Now go to: http://roducks.test
+
+## #2 - Lando:
+### Install:
 * Lando [v3.1.4](https://lando.dev/download/) or higher
 
 ### Getting Started:
@@ -29,6 +60,13 @@ $ lando ssh
 # composer install
 ```
 
+### Done!
+
+Now go to: http://roducks.lndo.site/
+
+---
+## Optional
+
 4. Install `Documentation` module:
 ```
 # php roducks documentation
@@ -38,9 +76,6 @@ $ lando ssh
 ```
 # php roducks user:create --admin
 ```
-### Done!
-
-Now go to: http://roducks.lndo.site/
 
 ---
 ## Roducks CLI
