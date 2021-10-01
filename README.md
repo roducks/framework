@@ -24,12 +24,18 @@ We provide 2 options:
 sh docker-compose.sh
 ```
 
-2. Touch hosts file (MAC OSX):
+2. Install composer dependencies:
+
+```
+# composer install
+```
+
+3. Touch hosts file (MAC OSX):
 ```
 sudo vim /etc/hosts
 ```
 
-3. Add this host:
+4. Add this host:
 ```
 127.0.0.1 roducks.test
 ```
