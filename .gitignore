@@ -28,6 +28,8 @@ extensions.js
 deploy.sh
 
 # Roducks
+logs
+data
 core
 cache
 storage

@@ -1,3 +1,9 @@
-roducks.lndo.site: 
+localhost:
+  errors: true
+  env: '@local'
+roducks.test:
+  errors: true
+  env: '@local'
+roducks.lndo.site:
   errors: true
   env: '@local'

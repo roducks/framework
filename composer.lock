@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ba222fd9bb44335e251070258b21c889",
+    "content-hash": "db332a018ea5d9d04e2aa5062fca2654",
     "packages": [
         {
             "name": "composer/installers",
@@ -785,25 +785,25 @@
         },
         {
             "name": "roducks/core",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/roducks/core.git",
-                "reference": "8a908a157453e57fcf0d586d509861cd97bef803"
+                "reference": "df72ef1a04e75d3037ed7294cb469924b50a61e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/roducks/core/zipball/8a908a157453e57fcf0d586d509861cd97bef803",
-                "reference": "8a908a157453e57fcf0d586d509861cd97bef803",
+                "url": "https://api.github.com/repos/roducks/core/zipball/df72ef1a04e75d3037ed7294cb469924b50a61e1",
+                "reference": "df72ef1a04e75d3037ed7294cb469924b50a61e1",
                 "shasum": ""
             },
             "type": "roducks-core",
             "description": "Roducks PHP Framework",
             "support": {
-                "source": "https://github.com/roducks/core/tree/v1.0.1",
+                "source": "https://github.com/roducks/core/tree/v1.0.2",
                 "issues": "https://github.com/roducks/core/issues"
             },
-            "time": "2021-09-26T04:05:30+00:00"
+            "time": "2021-10-01T04:28:30+00:00"
         },
         {
             "name": "roducks/js",
@@ -1235,5 +1235,5 @@
         "php": ">=7.0.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.1.0"
 }
