@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ee89ec3017aeb45c811736a6c33a993d",
+    "content-hash": "4ce628f38d49fde9f283e71b63e7dd84",
     "packages": [
         {
             "name": "composer/installers",
@@ -721,25 +721,25 @@
         },
         {
             "name": "roducks/core",
-            "version": "v1.0.3",
+            "version": "v1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/roducks/core.git",
-                "reference": "393ceb2af5ea0e359d895463c502232777550acb"
+                "reference": "66668a25faacb60b301364c1993691583a962b9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/roducks/core/zipball/393ceb2af5ea0e359d895463c502232777550acb",
-                "reference": "393ceb2af5ea0e359d895463c502232777550acb",
+                "url": "https://api.github.com/repos/roducks/core/zipball/66668a25faacb60b301364c1993691583a962b9b",
+                "reference": "66668a25faacb60b301364c1993691583a962b9b",
                 "shasum": ""
             },
             "type": "roducks-core",
             "description": "Roducks PHP Framework",
             "support": {
-                "source": "https://github.com/roducks/core/tree/v1.0.3",
+                "source": "https://github.com/roducks/core/tree/v1.0.4",
                 "issues": "https://github.com/roducks/core/issues"
             },
-            "time": "2022-05-15T21:45:26+00:00"
+            "time": "2022-05-16T04:40:56+00:00"
         },
         {
             "name": "roducks/js",
