@@ -48,7 +48,11 @@
   "config": {
     "preferred-install": "dist",
     "sort-packages": true,
-    "optimize-autoloader": true
+    "optimize-autoloader": true,
+    "allow-plugins": {
+      "composer/installers": true,
+      "oomphinc/composer-installers-extender": true
+    }
   },
   "scripts": {
     "post-install-cmd": [
