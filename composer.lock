@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4ce628f38d49fde9f283e71b63e7dd84",
+    "content-hash": "7516b7373910fc144fbb96b88be705f5",
     "packages": [
         {
             "name": "composer/installers",
@@ -721,25 +721,25 @@
         },
         {
             "name": "roducks/core",
-            "version": "v1.0.4",
+            "version": "v1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/roducks/core.git",
-                "reference": "66668a25faacb60b301364c1993691583a962b9b"
+                "reference": "3f53365b6aeacc3f75ae2a66788589f034a4ac54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/roducks/core/zipball/66668a25faacb60b301364c1993691583a962b9b",
-                "reference": "66668a25faacb60b301364c1993691583a962b9b",
+                "url": "https://api.github.com/repos/roducks/core/zipball/3f53365b6aeacc3f75ae2a66788589f034a4ac54",
+                "reference": "3f53365b6aeacc3f75ae2a66788589f034a4ac54",
                 "shasum": ""
             },
             "type": "roducks-core",
             "description": "Roducks PHP Framework",
             "support": {
-                "source": "https://github.com/roducks/core/tree/v1.0.4",
+                "source": "https://github.com/roducks/core/tree/v1.0.5",
                 "issues": "https://github.com/roducks/core/issues"
             },
-            "time": "2022-05-16T04:40:56+00:00"
+            "time": "2022-08-21T20:24:44+00:00"
         },
         {
             "name": "roducks/js",
@@ -1085,5 +1085,6 @@
     "platform": {
         "php": ">=7.0.0"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
 }
